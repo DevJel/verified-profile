@@ -1,0 +1,42 @@
+{
+  "recordedAt": "2026-10-28T17:55:24.260298+00:00",
+  "method": "ISO MCP heuristic checks of final authored source snapshots; not certification",
+  "files": [
+    {
+      "file": "demo/index.html",
+      "sha256": "b7041470884ce8c824e999a57f41cff43f5ca0fa03f5e256bde94616010d614e",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "demo/styles.css",
+      "sha256": "ed8718cf5c294bbe9f17cfc95c4e2d157f868226253d06fc631564d4be88d423",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "demo/demo.js",
+      "sha256": "d1a63a33224ee860c0f093e563abedca7c767c754e24e114bc67aa8c38f22b0c",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "tests/demo.cjs",
+      "sha256": "063fdfdc3a78b895719d3d61a21f74fd23e97b443d82b1f40c519c24c789a2f8",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "scripts/build-demo.cjs",
+      "sha256": "42f4e410918d1d0b9f94f2f5d71fa9642c44ae737ea53b11dcb6f0476bdfd4f1",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": ".github/workflows/demo-pages.yml",
+      "sha256": "f14895038cb1f91234357736cb0c940313b5d42c513e1d39a99d88749a02ca84",
+      "errors": 0,
+      "warnings": 0
+    }
+  ]
+}

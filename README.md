@@ -2,24 +2,27 @@
 
 A clean, responsive, blue-and-white profile concept. **This is an interactive prototype, not a live identity or credential-verification service.**
 
-## Website
+## New dashboard showcase and production status
+
+- **Read-only demo:** six responsive screens under [`demo/`](demo/), including Google, passkey, password, and email-code UI. All authentication and write controls are disabled.
+- **Production accounts:** requested but **not implemented or activated**. The new Cloudflare account, authentication provider/framework, app domain, and verified email service still need setup.
+- **Deployment:** the new workflow builds and publishes **only the demo** after review/merge, successful checks, and Pages configuration. No new live deployment is claimed.
+
+See [demo guide](docs/DEMO.md), [architecture and Mermaid diagrams](docs/ARCHITECTURE.md), [authentication requirements](docs/AUTHENTICATION.md), and [GitHub Flow/runbook](docs/GITHUB_FLOW.md).
+
+## Existing landing-page prototype
 
 The site uses readable `index.html`, `styles.css`, and `app.js` files, an optimized supplied logo, and a vendored QR library. No installation, build, CDN, or backend is required to host it. Open the page locally or serve this directory with `python3 -m http.server 8080`.
 
 Edit the page structure in `index.html`, the design in `styles.css`, and interactions in `app.js`. The logo is an SVG container preserving the supplied WebP image. Third-party copyright notices remain intact.
 
-## Publish with GitHub Pages
+## Publish the read-only showcase with GitHub Pages
 
-**Repository created and site uploaded. GitHub Pages is not enabled yet.**
+After this feature is reviewed and merged, select **Settings → Pages → Source → GitHub Actions**. Do not publish the repository root directly. The workflow runs checks and deploys the `.site/` allowlist, with the showcase at `/demo/`.
 
-1. Open [Settings → Pages](https://github.com/DevJel/verified-profile/settings/pages).
-2. Under **Build and deployment**, select **Deploy from a branch**.
-3. Choose **main** and **/ (root)**, then save.
-4. Wait for GitHub's deployment to complete and use the website URL shown there.
+First-time Pages setup requires the repository owner; the standard workflow token cannot enable it automatically. See the [release runbook](docs/GITHUB_FLOW.md) for precise steps, permissions, and rollback. Production is a separate Cloudflare deployment with separate credentials and data.
 
-No custom domain is configured. `.nojekyll` is included.
-
-## Features
+## Existing landing-page features
 
 - Responsive desktop/mobile layout, mobile navigation, and keyboard-accessible tabs.
 - Native profile and privacy dialogs, Escape/focus return, and reduced-motion support.

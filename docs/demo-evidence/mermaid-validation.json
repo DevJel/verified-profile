@@ -1,0 +1,36 @@
+{
+  "testedAt": "2026-10-28T17:52:42.506Z",
+  "validator": "mermaid 11.12.0",
+  "results": [
+    {
+      "file": "ARCHITECTURE.md",
+      "diagram": 1,
+      "type": "flowchart-v2",
+      "result": "pass"
+    },
+    {
+      "file": "ARCHITECTURE.md",
+      "diagram": 2,
+      "type": "er",
+      "result": "pass"
+    },
+    {
+      "file": "AUTHENTICATION.md",
+      "diagram": 1,
+      "type": "flowchart-v2",
+      "result": "pass"
+    },
+    {
+      "file": "AUTHENTICATION.md",
+      "diagram": 2,
+      "type": "sequence",
+      "result": "pass"
+    },
+    {
+      "file": "GITHUB_FLOW.md",
+      "diagram": 1,
+      "type": "flowchart-v2",
+      "result": "pass"
+    }
+  ]
+}

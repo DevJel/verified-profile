@@ -1,0 +1,133 @@
+{
+  "testedAt": "2026-10-28T17:50:45.141Z",
+  "browser": "153.0.8010.12",
+  "results": [
+    {
+      "name": "Descriptive page title",
+      "result": "pass"
+    },
+    {
+      "name": "All images loaded",
+      "result": "pass"
+    },
+    {
+      "name": "All in-page anchors resolve",
+      "result": "pass"
+    },
+    {
+      "name": "No horizontal overflow at 320px",
+      "result": "pass"
+    },
+    {
+      "name": "No overflowing text at 320px",
+      "result": "pass"
+    },
+    {
+      "name": "No horizontal overflow at 390px",
+      "result": "pass"
+    },
+    {
+      "name": "No overflowing text at 390px",
+      "result": "pass"
+    },
+    {
+      "name": "No horizontal overflow at 768px",
+      "result": "pass"
+    },
+    {
+      "name": "No overflowing text at 768px",
+      "result": "pass"
+    },
+    {
+      "name": "No horizontal overflow at 900px",
+      "result": "pass"
+    },
+    {
+      "name": "No overflowing text at 900px",
+      "result": "pass"
+    },
+    {
+      "name": "No horizontal overflow at 1440px",
+      "result": "pass"
+    },
+    {
+      "name": "No overflowing text at 1440px",
+      "result": "pass"
+    },
+    {
+      "name": "Badges tab displays its panel",
+      "result": "pass"
+    },
+    {
+      "name": "Arrow navigation activates xCoder AI",
+      "result": "pass"
+    },
+    {
+      "name": "Home returns to Portfolio",
+      "result": "pass"
+    },
+    {
+      "name": "Whitespace-only name is rejected",
+      "result": "pass"
+    },
+    {
+      "name": "Invalid handle is rejected",
+      "result": "pass"
+    },
+    {
+      "name": "User-provided names are rendered only as text",
+      "result": "pass"
+    },
+    {
+      "name": "Escape closes dialog and restores focus",
+      "result": "pass"
+    },
+    {
+      "name": "Clipboard success handling (mocked API)",
+      "result": "pass"
+    },
+    {
+      "name": "Clipboard denial has an accessible fallback (mocked API)",
+      "result": "pass"
+    },
+    {
+      "name": "Privacy information opens",
+      "result": "pass"
+    },
+    {
+      "name": "Mobile badge preserves the issuer context",
+      "result": "pass"
+    },
+    {
+      "name": "Mobile menu opens",
+      "result": "pass"
+    },
+    {
+      "name": "Mobile menu closes after navigation",
+      "result": "pass"
+    },
+    {
+      "name": "Reduced-motion preference disables smooth scrolling",
+      "result": "pass"
+    },
+    {
+      "name": "No browser errors",
+      "result": "pass"
+    },
+    {
+      "name": "No failed requests",
+      "result": "pass"
+    },
+    {
+      "name": "No external network requests",
+      "result": "pass"
+    },
+    {
+      "name": "No browser storage is used",
+      "result": "pass"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "externalRequests": []
+}

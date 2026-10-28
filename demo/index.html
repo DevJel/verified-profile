@@ -1,0 +1,563 @@
+<!--
+  ISO/IEC 27001:2022 A.8.28 Secure, accessible static profile demo — ALIGNED architecture and reference.
+  Alignment references the official ISO/IEC standards published through iso.org. Alignment of this work is self-declared by JelvanR.
+  Referenced standards © ISO/IEC; licensed reference copies held by JelvanR remain restricted under their issued terms. No standard text is reproduced here.
+  Guideline rules: AGENT-003, REPO-026, REPO-009
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta name="robots" content="noindex" />
+    <meta
+      name="description"
+      content="Explore the Verified Profile dashboard. Read-only sample screens, with no real authentication or data changes."
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <title>Overview · Verified Profile demo</title>
+    <link rel="icon" type="image/svg+xml" href="assets/vp-logo.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="demo.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="topbar">
+      <a class="brand" href="#overview"
+        ><img src="assets/vp-logo.svg" width="40" height="40" alt="" /><span
+          >Verified Profile<span class="brand-subtitle"
+            >WORKSPACE PREVIEW</span
+          ></span
+        ></a
+      >
+      <div class="topbar-right">
+        <span class="label">Read-only demo</span
+        ><span class="avatar small" aria-hidden="true">D</span
+        ><button
+          type="button"
+          id="menu-toggle"
+          class="menu-button"
+          aria-expanded="false"
+          aria-controls="sidebar"
+        >
+          Menu
+        </button>
+      </div>
+    </header>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <p class="nav-caption">YOUR WORKSPACE</p>
+        <nav aria-label="Demo screens">
+          <a href="#overview" aria-current="page"
+            ><span class="nav-icon" aria-hidden="true">01</span>Overview</a
+          >
+          <a href="#profile"
+            ><span class="nav-icon" aria-hidden="true">02</span>My profile</a
+          >
+          <a href="#projects"
+            ><span class="nav-icon" aria-hidden="true">03</span>Projects</a
+          >
+          <a href="#badges"
+            ><span class="nav-icon" aria-hidden="true">04</span>Credentials</a
+          >
+          <a href="#account"
+            ><span class="nav-icon" aria-hidden="true">05</span>Account &amp;
+            security</a
+          >
+          <a href="#signin"
+            ><span class="nav-icon" aria-hidden="true">06</span>Sign-in
+            preview</a
+          >
+        </nav>
+        <div class="sidebar-note">
+          <span class="status-dot" aria-hidden="true"></span
+          ><strong>Sample workspace</strong>
+          <p>Navigation works. Account and data actions do not.</p>
+        </div>
+      </aside>
+      <main id="main" tabindex="-1">
+        <div class="demo-notice">
+          <span class="notice-symbol" aria-hidden="true">i</span>
+          <p>
+            <strong>A showcase, not a signed-in account.</strong> Everything
+            here is sample data. Sign-in, editing, sending codes, and other
+            write actions are disabled.
+          </p>
+        </div>
+        <section data-screen="overview">
+          <div class="page-heading">
+            <div>
+              <p class="eyebrow">YOUR WORKSPACE / OVERVIEW</p>
+              <h1 tabindex="-1">Your work, in one place.</h1>
+              <p>A clearer view of your profile, projects, and credentials.</p>
+            </div>
+            <button type="button" class="button primary" disabled>
+              Edit workspace
+            </button>
+          </div>
+          <div class="stats-grid">
+            <article class="stat">
+              <span>Sample projects</span><strong>02</strong>
+              <p>Illustrative records only</p>
+            </article>
+            <article class="stat">
+              <span>Issued credentials</span><strong>00</strong>
+              <p>No verification performed</p>
+            </article>
+            <article class="stat">
+              <span>Planned sign-in options</span><strong>04</strong>
+              <p>Inactive in this demo</p>
+            </article>
+          </div>
+          <div class="overview-grid">
+            <article class="panel profile-overview">
+              <div class="panel-heading">
+                <h2>Your profile</h2>
+                <span class="label">Sample</span>
+              </div>
+              <div class="identity">
+                <span class="avatar large" aria-hidden="true">D</span>
+                <div>
+                  <h3>Demo Profile</h3>
+                  <p>@demo · Individual</p>
+                </div>
+              </div>
+              <p class="sample-email">demo@verifiedprofile.com</p>
+              <p class="muted">
+                A sample professional identity. No email ownership, employment,
+                or identity has been verified.
+              </p>
+              <dl class="detail-list">
+                <div>
+                  <dt>Visibility</dt>
+                  <dd>Showcase only</dd>
+                </div>
+                <div>
+                  <dt>Issuer</dt>
+                  <dd>Not connected</dd>
+                </div>
+              </dl>
+              <a class="text-link" href="#profile"
+                >Explore profile screen <span aria-hidden="true">→</span></a
+              >
+            </article>
+            <article class="panel">
+              <div class="panel-heading">
+                <h2>Project preview</h2>
+                <span class="label">2 samples</span>
+              </div>
+              <div class="project-row">
+                <span class="project-number" aria-hidden="true">01</span>
+                <div>
+                  <h3>Portfolio website</h3>
+                  <p>Responsive profile concept</p>
+                </div>
+                <span class="label">Sample</span>
+              </div>
+              <div class="project-row">
+                <span class="project-number" aria-hidden="true">02</span>
+                <div>
+                  <h3>Credential registry</h3>
+                  <p>Evidence workflow concept</p>
+                </div>
+                <span class="label">Sample</span>
+              </div>
+              <p class="muted footnote">
+                These examples are not verified work history or imported
+                repositories.
+              </p>
+              <a class="text-link" href="#projects"
+                >Explore project screen <span aria-hidden="true">→</span></a
+              >
+            </article>
+          </div>
+          <article class="security-callout">
+            <div>
+              <p class="eyebrow">BUILT AROUND YOUR IDENTITY</p>
+              <h2>More ways to sign in. One protected account.</h2>
+              <p>
+                The production plan includes Google, passkeys, email/password,
+                and email codes. None is active here.
+              </p>
+            </div>
+            <a class="text-link" href="#signin"
+              >Explore sign-in screens <span aria-hidden="true">→</span></a
+            >
+          </article>
+        </section>
+        <section data-screen="profile" hidden>
+          <div class="page-heading">
+            <div>
+              <p class="eyebrow">YOUR WORKSPACE / PROFILE</p>
+              <h1 tabindex="-1">A profile with context.</h1>
+              <p>Identity, details, and visibility brought together.</p>
+            </div>
+            <button type="button" class="button primary" disabled>
+              Save profile
+            </button>
+          </div>
+          <div class="two-column">
+            <article class="panel">
+              <div class="panel-heading">
+                <h2>Profile details</h2>
+                <span class="label">Read-only</span>
+              </div>
+              <label for="display-name">Display name</label
+              ><input id="display-name" value="Demo Profile" disabled /><label
+                for="profile-handle"
+                >Profile handle</label
+              ><input id="profile-handle" value="@demo" disabled /><label
+                for="profile-email"
+                >Email</label
+              ><input
+                id="profile-email"
+                type="email"
+                value="demo@verifiedprofile.com"
+                disabled
+              /><label for="headline">Headline</label
+              ><textarea id="headline" rows="3" disabled>
+A sample profile for the feature showcase</textarea
+              >
+              <p class="field-help">
+                Editing and saving are disabled. No profile will be created.
+              </p>
+            </article>
+            <article class="panel">
+              <div class="panel-heading">
+                <h2>Profile badge</h2>
+                <span class="label">Not issued</span>
+              </div>
+              <div class="sample-badge">
+                <img
+                  src="assets/vp-logo.svg"
+                  width="44"
+                  height="44"
+                  alt="Verified Profile"
+                />
+                <div>
+                  <span class="eyebrow">SAMPLE PROFILE</span
+                  ><strong>Demo Profile</strong
+                  ><span>No verification or issuer attached</span>
+                </div>
+              </div>
+              <h3 class="spaced-heading">Visibility &amp; privacy</h3>
+              <p class="muted">
+                Production profiles should remain private until their owner
+                explicitly chooses to publish them.
+              </p>
+              <div class="setting-row">
+                <div>
+                  <strong>Public profile</strong>
+                  <p>Unavailable in the showcase</p>
+                </div>
+                <span class="label">Off</span>
+              </div>
+              <button type="button" class="button secondary" disabled>
+                Publish profile
+              </button>
+              <p class="field-help">
+                The demo cannot publish, share, export, or issue a credential.
+              </p>
+            </article>
+          </div>
+        </section>
+        <section data-screen="projects" hidden>
+          <div class="page-heading">
+            <div>
+              <p class="eyebrow">YOUR WORKSPACE / PROJECTS</p>
+              <h1 tabindex="-1">Show the work behind the profile.</h1>
+              <p>
+                Sample project cards with clear source and verification status.
+              </p>
+            </div>
+            <button type="button" class="button primary" disabled>
+              Add project
+            </button>
+          </div>
+          <div class="two-column">
+            <article class="panel project-card">
+              <div class="panel-heading">
+                <span class="project-number">01</span
+                ><span class="label">Sample record</span>
+              </div>
+              <h2>Portfolio website</h2>
+              <p class="muted">
+                An illustrative responsive site that brings a professional
+                profile and project summaries into one place.
+              </p>
+              <div class="tag-list">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <dl class="detail-list">
+                <div>
+                  <dt>Source</dt>
+                  <dd>Fictional example</dd>
+                </div>
+                <div>
+                  <dt>Verification</dt>
+                  <dd>Not verified</dd>
+                </div>
+              </dl>
+              <button type="button" class="button secondary" disabled>
+                Edit project
+              </button>
+            </article>
+            <article class="panel project-card">
+              <div class="panel-heading">
+                <span class="project-number">02</span
+                ><span class="label">Sample record</span>
+              </div>
+              <h2>Credential registry</h2>
+              <p class="muted">
+                An illustrative workflow for organizing issuer details,
+                evidence, and credential status. No registry is connected.
+              </p>
+              <div class="tag-list">
+                <span>Concept</span><span>Evidence</span><span>Profiles</span>
+              </div>
+              <dl class="detail-list">
+                <div>
+                  <dt>Source</dt>
+                  <dd>Fictional example</dd>
+                </div>
+                <div>
+                  <dt>Verification</dt>
+                  <dd>Not verified</dd>
+                </div>
+              </dl>
+              <button type="button" class="button secondary" disabled>
+                Edit project
+              </button>
+            </article>
+          </div>
+          <p class="page-footnote">
+            No repository connection, import, AI analysis, or project
+            modification is available in this demo.
+          </p>
+        </section>
+        <section data-screen="badges" hidden>
+          <div class="page-heading">
+            <div>
+              <p class="eyebrow">YOUR WORKSPACE / CREDENTIALS</p>
+              <h1 tabindex="-1">Evidence before endorsement.</h1>
+              <p>
+                A credential should say who issued it and what it establishes.
+              </p>
+            </div>
+            <button type="button" class="button primary" disabled>
+              Request credential
+            </button>
+          </div>
+          <article class="panel empty-state">
+            <span class="empty-mark" aria-hidden="true">VP</span
+            ><span class="label">No issued credentials</span>
+            <h2>There’s no verification to claim.</h2>
+            <p>
+              This sample account has no issued badges, validated identity, or
+              verified employment. The demo does not simulate a successful
+              verification.
+            </p>
+            <button type="button" class="button secondary" disabled>
+              Connect an issuer
+            </button>
+            <p class="field-help">
+              Credential issuance is a separate future integration—not part of
+              account sign-in.
+            </p>
+          </article>
+        </section>
+        <section data-screen="account" hidden>
+          <div class="page-heading">
+            <div>
+              <p class="eyebrow">YOUR WORKSPACE / ACCOUNT &amp; SECURITY</p>
+              <h1 tabindex="-1">Your account. Your controls.</h1>
+              <p>A preview of authentication and session-management options.</p>
+            </div>
+            <span class="label">All controls disabled</span>
+          </div>
+          <div class="two-column">
+            <article class="panel">
+              <div class="panel-heading">
+                <h2>Sign-in methods</h2>
+                <span class="label">Planned</span>
+              </div>
+              <div class="setting-row">
+                <div>
+                  <strong>Google</strong>
+                  <p>Provider-managed sign-in</p>
+                </div>
+                <button class="button secondary compact" type="button" disabled>
+                  Connect
+                </button>
+              </div>
+              <div class="setting-row">
+                <div>
+                  <strong>Passkeys</strong>
+                  <p>Device-based authentication</p>
+                </div>
+                <button class="button secondary compact" type="button" disabled>
+                  Add
+                </button>
+              </div>
+              <div class="setting-row">
+                <div>
+                  <strong>Email &amp; password</strong>
+                  <p>Verification and password recovery</p>
+                </div>
+                <button class="button secondary compact" type="button" disabled>
+                  Manage
+                </button>
+              </div>
+              <div class="setting-row">
+                <div>
+                  <strong>Email codes</strong>
+                  <p>Short-lived, single-use codes</p>
+                </div>
+                <button class="button secondary compact" type="button" disabled>
+                  Manage
+                </button>
+              </div>
+              <p class="field-help">
+                No provider, password, passkey, or email service is connected to
+                the showcase.
+              </p>
+            </article>
+            <article class="panel">
+              <div class="panel-heading">
+                <h2>Sessions &amp; account data</h2>
+              </div>
+              <div class="session-empty">
+                <span class="label">No active session</span>
+                <h3>You are not signed in.</h3>
+                <p>
+                  This is a public static preview, not an account. No session
+                  cookie or browser storage is created.
+                </p>
+              </div>
+              <div class="button-stack">
+                <button class="button secondary" type="button" disabled>
+                  Sign out all sessions</button
+                ><button class="button secondary" type="button" disabled>
+                  Export account data</button
+                ><button class="button danger" type="button" disabled>
+                  Delete account
+                </button>
+              </div>
+              <p class="field-help">
+                Real account actions belong only in the protected production
+                app.
+              </p>
+            </article>
+          </div>
+        </section>
+        <section data-screen="signin" hidden>
+          <div class="page-heading">
+            <div>
+              <p class="eyebrow">AUTHENTICATION / SIGN-IN PREVIEW</p>
+              <h1 tabindex="-1">Choose how you sign in.</h1>
+              <p>
+                Four planned production methods. This screen cannot authenticate
+                anyone.
+              </p>
+            </div>
+            <span class="label">UI preview only</span>
+          </div>
+          <div class="auth-grid">
+            <article class="panel auth-card">
+              <span class="method-number">01 / GOOGLE</span>
+              <h2>Continue with Google</h2>
+              <p>
+                Use a Google identity through a vetted authentication
+                integration.
+              </p>
+              <button class="button secondary" type="button" disabled>
+                Continue with Google
+              </button>
+              <p class="field-help">
+                No OAuth redirect or account linking occurs.
+              </p>
+            </article>
+            <article class="panel auth-card">
+              <span class="method-number">02 / PASSKEY</span>
+              <h2>Sign in with a passkey</h2>
+              <p>
+                Use a passkey on a supported device after secure enrollment.
+              </p>
+              <button class="button secondary" type="button" disabled>
+                Use a passkey
+              </button>
+              <p class="field-help">
+                No device dialog opens and no passkey is enrolled.
+              </p>
+            </article>
+            <article class="panel auth-card">
+              <span class="method-number">03 / EMAIL &amp; PASSWORD</span>
+              <h2>A familiar way to sign in.</h2>
+              <label for="login-email">Email</label
+              ><input
+                id="login-email"
+                type="email"
+                value="demo@verifiedprofile.com"
+                disabled
+              /><label for="login-password">Password</label
+              ><input
+                id="login-password"
+                type="password"
+                placeholder="••••••••••••"
+                disabled
+              /><button class="button primary" type="button" disabled>
+                Sign in</button
+              ><button class="text-button" type="button" disabled>
+                Reset password
+              </button>
+              <p class="field-help">
+                No password is stored, accepted, or checked. Do not use real
+                credentials in a demo.
+              </p>
+            </article>
+            <article class="panel auth-card">
+              <span class="method-number">04 / EMAIL CODE</span>
+              <h2>A code, sent to your inbox.</h2>
+              <label for="code-email">Email</label
+              ><input
+                id="code-email"
+                type="email"
+                value="demo@verifiedprofile.com"
+                disabled
+              /><button class="button secondary" type="button" disabled>
+                Send email code</button
+              ><label for="email-code">One-time code</label
+              ><input
+                id="email-code"
+                inputmode="numeric"
+                placeholder="Code unavailable in demo"
+                disabled
+              /><button class="button primary" type="button" disabled>
+                Verify code
+              </button>
+              <p class="field-help">
+                No email is sent. No fixed or sample code can authenticate a
+                production account.
+              </p>
+            </article>
+          </div>
+        </section>
+        <footer class="workspace-footer">
+          <span>© 2026 Verified Profile</span
+          ><span>Sample data · No live services · Read-only</span>
+        </footer>
+      </main>
+    </div>
+    <noscript
+      ><p class="noscript">
+        JavaScript is disabled. The overview remains readable; screen navigation
+        requires JavaScript. Authentication and data actions are unavailable
+        either way.
+      </p></noscript
+    >
+  </body>
+</html>

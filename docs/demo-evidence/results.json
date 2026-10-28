@@ -1,0 +1,609 @@
+{
+  "testedAt": "2026-10-28T17:50:48.977Z",
+  "browser": "153.0.8010.12",
+  "results": [
+    {
+      "name": "Logo is loaded",
+      "result": "pass"
+    },
+    {
+      "name": "No form can be submitted",
+      "result": "pass"
+    },
+    {
+      "name": "All fields are disabled",
+      "result": "pass"
+    },
+    {
+      "name": "All non-navigation buttons are disabled",
+      "result": "pass"
+    },
+    {
+      "name": "The confirmed demo email is used",
+      "result": "pass"
+    },
+    {
+      "name": "No sample password is stored",
+      "result": "pass"
+    },
+    {
+      "name": "No sample OTP is stored",
+      "result": "pass"
+    },
+    {
+      "name": "CSP blocks network connections",
+      "result": "pass"
+    },
+    {
+      "name": "overview: no horizontal overflow at 320px",
+      "result": "pass"
+    },
+    {
+      "name": "overview: no clipped text at 320px",
+      "result": "pass"
+    },
+    {
+      "name": "profile: no horizontal overflow at 320px",
+      "result": "pass"
+    },
+    {
+      "name": "profile: no clipped text at 320px",
+      "result": "pass"
+    },
+    {
+      "name": "projects: no horizontal overflow at 320px",
+      "result": "pass"
+    },
+    {
+      "name": "projects: no clipped text at 320px",
+      "result": "pass"
+    },
+    {
+      "name": "badges: no horizontal overflow at 320px",
+      "result": "pass"
+    },
+    {
+      "name": "badges: no clipped text at 320px",
+      "result": "pass"
+    },
+    {
+      "name": "account: no horizontal overflow at 320px",
+      "result": "pass"
+    },
+    {
+      "name": "account: no clipped text at 320px",
+      "result": "pass"
+    },
+    {
+      "name": "signin: no horizontal overflow at 320px",
+      "result": "pass"
+    },
+    {
+      "name": "signin: no clipped text at 320px",
+      "result": "pass"
+    },
+    {
+      "name": "overview: no horizontal overflow at 390px",
+      "result": "pass"
+    },
+    {
+      "name": "overview: no clipped text at 390px",
+      "result": "pass"
+    },
+    {
+      "name": "profile: no horizontal overflow at 390px",
+      "result": "pass"
+    },
+    {
+      "name": "profile: no clipped text at 390px",
+      "result": "pass"
+    },
+    {
+      "name": "projects: no horizontal overflow at 390px",
+      "result": "pass"
+    },
+    {
+      "name": "projects: no clipped text at 390px",
+      "result": "pass"
+    },
+    {
+      "name": "badges: no horizontal overflow at 390px",
+      "result": "pass"
+    },
+    {
+      "name": "badges: no clipped text at 390px",
+      "result": "pass"
+    },
+    {
+      "name": "account: no horizontal overflow at 390px",
+      "result": "pass"
+    },
+    {
+      "name": "account: no clipped text at 390px",
+      "result": "pass"
+    },
+    {
+      "name": "signin: no horizontal overflow at 390px",
+      "result": "pass"
+    },
+    {
+      "name": "signin: no clipped text at 390px",
+      "result": "pass"
+    },
+    {
+      "name": "overview: no horizontal overflow at 768px",
+      "result": "pass"
+    },
+    {
+      "name": "overview: no clipped text at 768px",
+      "result": "pass"
+    },
+    {
+      "name": "profile: no horizontal overflow at 768px",
+      "result": "pass"
+    },
+    {
+      "name": "profile: no clipped text at 768px",
+      "result": "pass"
+    },
+    {
+      "name": "projects: no horizontal overflow at 768px",
+      "result": "pass"
+    },
+    {
+      "name": "projects: no clipped text at 768px",
+      "result": "pass"
+    },
+    {
+      "name": "badges: no horizontal overflow at 768px",
+      "result": "pass"
+    },
+    {
+      "name": "badges: no clipped text at 768px",
+      "result": "pass"
+    },
+    {
+      "name": "account: no horizontal overflow at 768px",
+      "result": "pass"
+    },
+    {
+      "name": "account: no clipped text at 768px",
+      "result": "pass"
+    },
+    {
+      "name": "signin: no horizontal overflow at 768px",
+      "result": "pass"
+    },
+    {
+      "name": "signin: no clipped text at 768px",
+      "result": "pass"
+    },
+    {
+      "name": "overview: no horizontal overflow at 1024px",
+      "result": "pass"
+    },
+    {
+      "name": "overview: no clipped text at 1024px",
+      "result": "pass"
+    },
+    {
+      "name": "profile: no horizontal overflow at 1024px",
+      "result": "pass"
+    },
+    {
+      "name": "profile: no clipped text at 1024px",
+      "result": "pass"
+    },
+    {
+      "name": "projects: no horizontal overflow at 1024px",
+      "result": "pass"
+    },
+    {
+      "name": "projects: no clipped text at 1024px",
+      "result": "pass"
+    },
+    {
+      "name": "badges: no horizontal overflow at 1024px",
+      "result": "pass"
+    },
+    {
+      "name": "badges: no clipped text at 1024px",
+      "result": "pass"
+    },
+    {
+      "name": "account: no horizontal overflow at 1024px",
+      "result": "pass"
+    },
+    {
+      "name": "account: no clipped text at 1024px",
+      "result": "pass"
+    },
+    {
+      "name": "signin: no horizontal overflow at 1024px",
+      "result": "pass"
+    },
+    {
+      "name": "signin: no clipped text at 1024px",
+      "result": "pass"
+    },
+    {
+      "name": "overview: no horizontal overflow at 1440px",
+      "result": "pass"
+    },
+    {
+      "name": "overview: no clipped text at 1440px",
+      "result": "pass"
+    },
+    {
+      "name": "profile: no horizontal overflow at 1440px",
+      "result": "pass"
+    },
+    {
+      "name": "profile: no clipped text at 1440px",
+      "result": "pass"
+    },
+    {
+      "name": "projects: no horizontal overflow at 1440px",
+      "result": "pass"
+    },
+    {
+      "name": "projects: no clipped text at 1440px",
+      "result": "pass"
+    },
+    {
+      "name": "badges: no horizontal overflow at 1440px",
+      "result": "pass"
+    },
+    {
+      "name": "badges: no clipped text at 1440px",
+      "result": "pass"
+    },
+    {
+      "name": "account: no horizontal overflow at 1440px",
+      "result": "pass"
+    },
+    {
+      "name": "account: no clipped text at 1440px",
+      "result": "pass"
+    },
+    {
+      "name": "signin: no horizontal overflow at 1440px",
+      "result": "pass"
+    },
+    {
+      "name": "signin: no clipped text at 1440px",
+      "result": "pass"
+    },
+    {
+      "name": "overview: no horizontal overflow at 1920px",
+      "result": "pass"
+    },
+    {
+      "name": "overview: no clipped text at 1920px",
+      "result": "pass"
+    },
+    {
+      "name": "profile: no horizontal overflow at 1920px",
+      "result": "pass"
+    },
+    {
+      "name": "profile: no clipped text at 1920px",
+      "result": "pass"
+    },
+    {
+      "name": "projects: no horizontal overflow at 1920px",
+      "result": "pass"
+    },
+    {
+      "name": "projects: no clipped text at 1920px",
+      "result": "pass"
+    },
+    {
+      "name": "badges: no horizontal overflow at 1920px",
+      "result": "pass"
+    },
+    {
+      "name": "badges: no clipped text at 1920px",
+      "result": "pass"
+    },
+    {
+      "name": "account: no horizontal overflow at 1920px",
+      "result": "pass"
+    },
+    {
+      "name": "account: no clipped text at 1920px",
+      "result": "pass"
+    },
+    {
+      "name": "signin: no horizontal overflow at 1920px",
+      "result": "pass"
+    },
+    {
+      "name": "signin: no clipped text at 1920px",
+      "result": "pass"
+    },
+    {
+      "name": "Mobile navigation expands",
+      "result": "pass"
+    },
+    {
+      "name": "Mobile navigation closes after selecting a screen",
+      "result": "pass"
+    },
+    {
+      "name": "Screen heading receives focus",
+      "result": "pass"
+    },
+    {
+      "name": "Escape closes navigation and restores focus",
+      "result": "pass"
+    },
+    {
+      "name": "Sign-in preview supports direct links",
+      "result": "pass"
+    },
+    {
+      "name": "Unknown route fails safely to the overview",
+      "result": "pass"
+    },
+    {
+      "name": "Exactly one screen is visible",
+      "result": "pass"
+    },
+    {
+      "name": "Disabled actions never create a session or storage",
+      "result": "pass"
+    },
+    {
+      "name": "Reduced-motion scrolling is supported",
+      "result": "pass"
+    },
+    {
+      "name": "Landscape layout has no horizontal overflow",
+      "result": "pass"
+    },
+    {
+      "name": "Touch navigation reaches the Projects screen",
+      "result": "pass"
+    },
+    {
+      "name": "Without JavaScript the overview remains readable",
+      "result": "pass"
+    },
+    {
+      "name": "Without JavaScript all write controls remain disabled",
+      "result": "pass"
+    },
+    {
+      "name": "No browser errors",
+      "result": "pass"
+    },
+    {
+      "name": "Read-only Pages build succeeds",
+      "result": "pass"
+    },
+    {
+      "name": "Pages artifact contains only the demo allowlist",
+      "result": "pass"
+    },
+    {
+      "name": "Built demo works under a nested project path",
+      "result": "pass"
+    },
+    {
+      "name": "Only same-origin static GET requests occur",
+      "result": "pass"
+    }
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:40111/demo/",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/styles.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/demo.js",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/.site/demo/",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/.site/demo/styles.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/.site/demo/demo.js",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/.site/demo/assets/vp-logo.svg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:40111/.site/demo/assets/vp-logo.svg",
+      "method": "GET"
+    }
+  ],
+  "artifactFiles": [
+    ".nojekyll",
+    "demo/assets/vp-logo.svg",
+    "demo/demo.js",
+    "demo/index.html",
+    "demo/styles.css",
+    "index.html"
+  ]
+}
