@@ -2,6 +2,10 @@
 
 **Status: requirements and activation gates only. Real authentication is not implemented or enabled in this change.** Do not present the read-only sign-in preview as a usable login.
 
+## Reader guide
+
+The live Cloudflare deployment is a public read-only showcase. For plain-language screen explanations, see the [user manual](../manual.md). The requirements below govern a future real-account release; deploying the preview did not activate them.
+
 ## Required methods
 
 | Method             | Production requirement                                                                                                   | Demo behavior                                              |
