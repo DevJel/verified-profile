@@ -1,0 +1,291 @@
+{
+  "recordedAt": "2026-10-28T17:08:35.347174+00:00",
+  "note": "Actual PNG screenshots cropped to viewports/dialogs as listed, then encoded losslessly as WebP inside SVG. Pixel equality verified after conversion. No UI redrawn.",
+  "screenshots": [
+    {
+      "file": "after-desktop.svg",
+      "originalPngSha256": "4c08c563ecb57b7446ffd93813e5bac7ff6fbd5529046890b9e030ed5bc660a0",
+      "sourceDimensions": [
+        1440,
+        3621
+      ],
+      "cropBounds": [
+        0,
+        0,
+        1440,
+        1000
+      ],
+      "losslessWebpSha256": "19f99a1310755f13ccd1288bf788e5dfddcb53a9415107038fba129d14f57d72",
+      "dimensions": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "file": "after-mobile.svg",
+      "originalPngSha256": "39b04c9dc8b679ea5eeebce57dfeb7014435351a3cccbb76bcd54e0e34118b89",
+      "sourceDimensions": [
+        390,
+        5184
+      ],
+      "cropBounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "losslessWebpSha256": "5b96c54713bbd042ee65c90847c2332ba0fa144b82f436c8ff69fa920eb5ee06",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "file": "ai-desktop.svg",
+      "originalPngSha256": "875139789148bb647a69d8cb59b18dfad3a6521c8576a63877149dbb83373ba8",
+      "sourceDimensions": [
+        545,
+        402
+      ],
+      "cropBounds": [
+        0,
+        0,
+        545,
+        402
+      ],
+      "losslessWebpSha256": "450dc1fc300b04eb935fde5f29872798b4b9a5de386601a01df2a3f41aeed406",
+      "dimensions": [
+        545,
+        402
+      ]
+    },
+    {
+      "file": "ai-mobile.svg",
+      "originalPngSha256": "ea8e337ca34f6d705796fb2a43370a313ff063c8eb8b6ca147011a302642c386",
+      "sourceDimensions": [
+        350,
+        411
+      ],
+      "cropBounds": [
+        0,
+        0,
+        350,
+        411
+      ],
+      "losslessWebpSha256": "232e928808fe77fd122b708da5905e213f85fb9e9d13c593803abfb789ce79a9",
+      "dimensions": [
+        350,
+        411
+      ]
+    },
+    {
+      "file": "badge-mobile.svg",
+      "originalPngSha256": "9670311a954822121775c234b4e73ade00c2fe9d635a2de1b4bf0e25dec233ff",
+      "sourceDimensions": [
+        350,
+        441
+      ],
+      "cropBounds": [
+        0,
+        0,
+        350,
+        441
+      ],
+      "losslessWebpSha256": "aa04015e040b0f03e781607cb4db094a152640d2c0709d41c252c5bcb7649b36",
+      "dimensions": [
+        350,
+        441
+      ]
+    },
+    {
+      "file": "badges-desktop.svg",
+      "originalPngSha256": "0da962c52fc293fa6f13451aa25be459fa1beab42dac783c168ffa1e19710d63",
+      "sourceDimensions": [
+        545,
+        402
+      ],
+      "cropBounds": [
+        0,
+        0,
+        545,
+        402
+      ],
+      "losslessWebpSha256": "e75672cf51a16f93ef7bc3093e87bec724dec26750513cfa96ccda05ef22e0df",
+      "dimensions": [
+        545,
+        402
+      ]
+    },
+    {
+      "file": "badges-mobile.svg",
+      "originalPngSha256": "d7bbac9d3156b3f773f4c6bb3b3980b5b8761940ab4a56d7205dee80afcef0a2",
+      "sourceDimensions": [
+        350,
+        411
+      ],
+      "cropBounds": [
+        0,
+        0,
+        350,
+        411
+      ],
+      "losslessWebpSha256": "83f10728d874934a2605652eace259d72322f0175ae42f1f4a56b91a511ccea7",
+      "dimensions": [
+        350,
+        411
+      ]
+    },
+    {
+      "file": "before-desktop.svg",
+      "originalPngSha256": "77fb0fd2cb28499e6d3e57ec825ef65a684cb1e1da4742285dd6e1715ed29fdb",
+      "sourceDimensions": [
+        1440,
+        900
+      ],
+      "cropBounds": [
+        0,
+        0,
+        1440,
+        750
+      ],
+      "losslessWebpSha256": "19defdf020fb1b109022618b781230171d3e6ae47d4e4a1f144eb7e38a469087",
+      "dimensions": [
+        1440,
+        750
+      ]
+    },
+    {
+      "file": "before-mobile.svg",
+      "originalPngSha256": "2db3efcc9a00d7b0dc3477e293882a0c091b71b31fa6262bd3d7921e31be0fb2",
+      "sourceDimensions": [
+        390,
+        6230
+      ],
+      "cropBounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "losslessWebpSha256": "33da9495f42ad582e539fcf29605d66184297407aff999e9e61dd19db91d1286",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "file": "demo-qr.svg",
+      "originalPngSha256": "4ad5d3af7f057548959135743d3dbe00a8c324d7f93bfeca267a9ba54e62da5d",
+      "sourceDimensions": [
+        180,
+        181
+      ],
+      "cropBounds": [
+        0,
+        0,
+        180,
+        181
+      ],
+      "losslessWebpSha256": "6681dcd95d517abc7beaba768d4149774ed8132b686bf2391f4020ba91f0cc8b",
+      "dimensions": [
+        180,
+        181
+      ]
+    },
+    {
+      "file": "menu-mobile.svg",
+      "originalPngSha256": "39de5a2a3b672110cdff3a13856667683b0bb2b758483438783c0e5acce5230e",
+      "sourceDimensions": [
+        390,
+        844
+      ],
+      "cropBounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "losslessWebpSha256": "37b3a4637dcc5f98484cb625e118c64d7bc3ec2f7e6c282befab78ecf20b9eeb",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "file": "privacy-desktop.svg",
+      "originalPngSha256": "c2d5956f238e520ef2e96c52c77f71fcc95b25a3945ac17b543d32bb94669abb",
+      "sourceDimensions": [
+        1440,
+        1000
+      ],
+      "cropBounds": [
+        460,
+        150,
+        980,
+        850
+      ],
+      "losslessWebpSha256": "998f22e881c26abe43b8f42531db4a97997cea565eef5d7ce65a3cea7f38d81e",
+      "dimensions": [
+        520,
+        700
+      ]
+    },
+    {
+      "file": "privacy-mobile.svg",
+      "originalPngSha256": "9d3d7a734e58f3da42ece051ee53ebb6165e1f4098d1f0689925318be5fad345",
+      "sourceDimensions": [
+        390,
+        844
+      ],
+      "cropBounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "losslessWebpSha256": "01aaceb0211b7abe91043d5a08b19b50c0863c6088f5382cdb9e213498036171",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "file": "profile-dialog-desktop.svg",
+      "originalPngSha256": "425e06cc2c4a34449006c53ee8cc7b2f998611ec51e4e541b9985774a43e65e8",
+      "sourceDimensions": [
+        1440,
+        1000
+      ],
+      "cropBounds": [
+        460,
+        150,
+        980,
+        850
+      ],
+      "losslessWebpSha256": "0725c224c17de7f537bbf427ea86980f9a579820eba8050766db30228ede861f",
+      "dimensions": [
+        520,
+        700
+      ]
+    },
+    {
+      "file": "profile-dialog-mobile.svg",
+      "originalPngSha256": "9dca59dca7847d448c6f3d1488a65e906a7d58e0dd7038cfce658d8142e19749",
+      "sourceDimensions": [
+        390,
+        844
+      ],
+      "cropBounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "losslessWebpSha256": "9a9db0f352aed112373fcbe21235924caa5c1ff0cd97b5f77abaaa3e96bb1754",
+      "dimensions": [
+        390,
+        844
+      ]
+    }
+  ]
+}
