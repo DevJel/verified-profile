@@ -1,3 +1,8 @@
 node_modules/
 .DS_Store
 docs/evidence/*.png
+
+.site/
+docs/demo-evidence/*.png
+
+node_modules
