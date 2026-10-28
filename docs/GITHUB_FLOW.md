@@ -18,7 +18,7 @@ flowchart LR
   ProdGate -->|"Services + security tests ready"| CF["Cloudflare production release"]
 ```
 
-The Cloudflare **production** path is a planned gate, not an implemented deployment workflow. A separate static showcase was deployed manually through the authorized Cloudflare API; see [Cloudflare runbook](CLOUDFLARE.md). It does not activate real accounts. Never share a production secret with a Pages job.
+The Cloudflare **production** path is a planned gate, not an implemented deployment workflow. A separate static showcase was deployed manually through the authorized Cloudflare API; see [Cloudflare runbook](CLOUDFLARE.md). For visitor guidance, see the [user manual](../manual.md). It does not activate real accounts. Never share a production secret with a Pages job.
 
 ## Implemented demo workflow
 
