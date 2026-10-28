@@ -8,7 +8,8 @@ on:
   pull_request:
     paths:
       - "demo/**"
-      - "scripts/build-demo.cjs"
+      - "scripts/**"
+      - "wrangler.demo.jsonc"
       - "tests/**"
       - "package*.json"
       - ".github/workflows/demo-pages.yml"
@@ -16,7 +17,8 @@ on:
     branches: [main]
     paths:
       - "demo/**"
-      - "scripts/build-demo.cjs"
+      - "scripts/**"
+      - "wrangler.demo.jsonc"
       - "tests/**"
       - "package*.json"
       - ".github/workflows/demo-pages.yml"
