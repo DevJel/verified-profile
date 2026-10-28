@@ -5,8 +5,9 @@ A clean, responsive, blue-and-white profile concept. **This is an interactive pr
 ## New dashboard showcase and production status
 
 - **Read-only demo:** six responsive screens under [`demo/`](demo/), including Google, passkey, password, and email-code UI. All authentication and write controls are disabled.
-- **Production accounts:** requested but **not implemented or activated**. The new Cloudflare account, authentication provider/framework, app domain, and verified email service still need setup.
-- **Deployment:** the new workflow builds and publishes **only the demo** after review/merge, successful checks, and Pages configuration. No new live deployment is claimed.
+- **Production accounts:** requested but **not implemented or activated**. The new Cloudflare account is connected; authentication/backend implementation, provider configuration, app domain, and verified email delivery remain required.
+- **Live Cloudflare showcase:** https://verified-profile-demo.black-tooth-5474.workers.dev/demo/ — deployed to Verified Profile Platform as a static-only Worker. Real accounts are not enabled. See [deployment runbook and evidence](docs/CLOUDFLARE.md).
+- **GitHub Pages:** separate demo-only workflow, merged in PR #1; owner Pages configuration is required. This Cloudflare release does not verify GitHub Pages publication.
 
 See [demo guide](docs/DEMO.md), [architecture and Mermaid diagrams](docs/ARCHITECTURE.md), [authentication requirements](docs/AUTHENTICATION.md), and [GitHub Flow/runbook](docs/GITHUB_FLOW.md).
 

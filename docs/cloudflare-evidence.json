@@ -1,0 +1,63 @@
+{
+  "deployment": {
+    "worker": "verified-profile-demo",
+    "accountName": "Verified Profile Platform",
+    "deploymentId": "21c45a0cc03343238cb789d3998ea049",
+    "mode": "read-only-demo",
+    "workerSha256": "a4060bb16b6cdb6fd38bd30f4b6df1419059be750e4aa4aac0ccd0945868df54"
+  },
+  "handlerTests": {
+    "passed": 54,
+    "failed": 0
+  },
+  "http": {
+    "origin": "https://verified-profile-demo.black-tooth-5474.workers.dev",
+    "timestamp": "2026-10-28T19:29:33.833Z",
+    "checks": 21,
+    "failed": 0,
+    "assets": [
+      {
+        "file": "index.html",
+        "sha256": "b7041470884ce8c824e999a57f41cff43f5ca0fa03f5e256bde94616010d614e",
+        "status": 200
+      },
+      {
+        "file": "styles.css",
+        "sha256": "ed8718cf5c294bbe9f17cfc95c4e2d157f868226253d06fc631564d4be88d423",
+        "status": 200
+      },
+      {
+        "file": "demo.js",
+        "sha256": "d1a63a33224ee860c0f093e563abedca7c767c754e24e114bc67aa8c38f22b0c",
+        "status": 200
+      },
+      {
+        "file": "assets/vp-logo.svg",
+        "sha256": "811bd17ce4ef6ef99733f3602a9bf718c79f6862c039db01aac7f5e315ad1c94",
+        "status": 200
+      }
+    ],
+    "health": {
+      "status": "ok",
+      "mode": "read-only-demo",
+      "authentication": false,
+      "persistence": false
+    }
+  },
+  "browser": {
+    "origin": "https://verified-profile-demo.black-tooth-5474.workers.dev",
+    "timestamp": "2026-10-28T19:29:54.540Z",
+    "checks": 49,
+    "failed": 0,
+    "widths": [390, 1440],
+    "routes": [
+      "overview",
+      "profile",
+      "projects",
+      "badges",
+      "account",
+      "signin"
+    ],
+    "pageErrors": []
+  }
+}

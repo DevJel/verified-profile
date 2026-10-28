@@ -1,0 +1,9 @@
+{
+  // Static showcase only. No database, auth, email, or secret bindings.
+  "name": "verified-profile-demo",
+  "main": ".cloudflare/worker.mjs",
+  "compatibility_date": "2026-10-28",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": { "enabled": false },
+}

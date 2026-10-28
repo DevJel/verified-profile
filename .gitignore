@@ -6,3 +6,5 @@ docs/evidence/*.png
 docs/demo-evidence/*.png
 
 node_modules
+
+.cloudflare/

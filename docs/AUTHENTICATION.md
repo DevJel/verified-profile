@@ -79,7 +79,7 @@ sequenceDiagram
 
 ## Activation gates
 
-1. Connect and identify the user’s **new Cloudflare account**. Do not reuse a business or older projects account without approval.
+1. **Account connected:** Verified Profile Platform was explicitly authorized for the static showcase release. Production resources and secrets are not provisioned; confirm this account again before creating them. Do not reuse a business or older projects account without approval.
 2. Select a vetted provider/framework that demonstrably supports all four methods and agrees with the session/security model.
 3. Approve the production domain, application origin, OAuth callbacks, recovery links, and staging origin.
 4. Configure Google OAuth consent and credentials through the provider’s secure setup.
