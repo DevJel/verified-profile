@@ -25,7 +25,7 @@ The previous README was primarily a short implementation summary and still said 
 
 ## Validation scope
 
-Documentation links, same-page anchors, screenshot coverage, encoded image integrity, Mermaid syntax/rendering, and visual presentation were checked for this update. The new live captures were opened individually for review. Detailed machine-readable results are in `docs/screenshots/documentation-checks.json`.
+Documentation links, same-page anchors, screenshot coverage, encoded image integrity, Mermaid syntax/rendering, and visual presentation were checked for this update. The new live captures were opened individually for review. All 148 checked relative links/anchors resolved; 13 Mermaid diagrams parsed. The eight new illustrations rendered locally and in GitHub. The hosted README loaded all eight image references; the hosted manual loaded all 21 complete screenshot parts. The README and manual were visually inspected in GitHub, with desktop/mobile manual views. Detailed machine-readable results are in `docs/screenshots/documentation-checks.json`.
 
 This change does not modify application source, workflows, dependencies, backend behavior, or Cloudflare configuration. It does not claim a new application regression run: previous application checks are quoted with their original scope. Cloudflare packaging was observed merged in PR #2 during this update; the project structure and links were reconciled with that actual main-branch state.
 

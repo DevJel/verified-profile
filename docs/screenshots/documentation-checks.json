@@ -106,7 +106,7 @@
     "visuallyInspectedOriginals": 13,
     "source": "actual live Cloudflare read-only showcase"
   },
-  "status": "Local link, anchor, Mermaid parse/render, image-loading, pixel-roundtrip, and visual checks passed; GitHub rendering review follows.",
+  "status": "PASS: links/anchors, Mermaid parsing/rendering, authentic screenshot pixel integrity, local desktop/mobile rendering, and hosted GitHub image/diagram rendering verified.",
   "localRender": {
     "renderedPages": [
       {
@@ -164,5 +164,36 @@
       "Changed roadmap and GitHub Flow to vertical layouts after horizontal versions rendered too small.",
       "Kept consecutive screenshot parts in one paragraph for clearer continuity."
     ]
+  },
+  "githubRender": {
+    "checkedAt": "2026-10-28T20:14:38.616Z",
+    "results": [
+      {
+        "file": "README.md",
+        "url": "https://github.com/DevJel/verified-profile/tree/docs/readme-manual-live-gallery",
+        "images": 8,
+        "brokenImages": 0,
+        "mermaidFrames": 4
+      },
+      {
+        "file": "manual.md",
+        "url": "https://github.com/DevJel/verified-profile/blob/docs/readme-manual-live-gallery/manual.md",
+        "images": 21,
+        "brokenImages": 0,
+        "mermaidFrames": 3
+      },
+      {
+        "file": "docs/README.md",
+        "url": "https://github.com/DevJel/verified-profile/blob/docs/readme-manual-live-gallery/docs/README.md",
+        "images": 0,
+        "brokenImages": 0,
+        "mermaidFrames": 1
+      }
+    ],
+    "visualReview": "README screenshot and overall layout inspected; manual desktop/mobile previews inspected after dismissing a transient GitHub search overlay. All images loaded and all eight new Mermaid frames rendered without syntax errors."
+  },
+  "committedSourceVerification": {
+    "files": 31,
+    "result": "All reviewed files matched the documentation branch before this final evidence-record update."
   }
 }
