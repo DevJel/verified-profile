@@ -1,0 +1,528 @@
+{
+  "status": "Live read-only showcase, not real-account production",
+  "origin": "https://verified-profile-demo.black-tooth-5474.workers.dev",
+  "captures": [
+    {
+      "file": "overview-1440.png",
+      "url": "https://verified-profile-demo.black-tooth-5474.workers.dev/demo/#overview",
+      "capturedAt": "2026-10-28T19:43:44.511Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "sha256": "eb02d5bb27c121b22769f15fcd4c67d99af89a22553709323991ad70fb16ab2f",
+      "fullPage": true,
+      "dimensions": {
+        "width": 1425,
+        "height": 1304
+      },
+      "parts": [
+        {
+          "file": "overview-1440.svg",
+          "part": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1425,
+            "height": 620
+          },
+          "svgBytes": 47619,
+          "webpSha256": "7d7ffddcb390ee2c0f53c6daa413da6cc7b36246f2510b3e0b016f5569bc7e91",
+          "svgSha256": "464b59840103af2ce2f98d43f0389fe8914e2732b9c08a34a9fd2c4074150ca1"
+        },
+        {
+          "file": "overview-1440-continued.svg",
+          "part": 2,
+          "bounds": {
+            "x": 0,
+            "y": 620,
+            "width": 1425,
+            "height": 684
+          },
+          "svgBytes": 40681,
+          "webpSha256": "c2ca9f47ab9f32aa860178fb1748bc45b9db8904fb92ca9961f57fbfb7be00ff",
+          "svgSha256": "358731787fc961146e01dc7cf8419153e09a292252dcefee8fff35394925f5b0"
+        }
+      ],
+      "representation": "Lossless WebP in SVG; consecutive segments cover the complete original screenshot with no omitted rows, resizing, or UI redrawing",
+      "pixelRoundtrip": "pass"
+    },
+    {
+      "file": "profile-1440.png",
+      "url": "https://verified-profile-demo.black-tooth-5474.workers.dev/demo/#profile",
+      "capturedAt": "2026-10-28T19:43:46.978Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "sha256": "f241410cc1f1e3bf9feac556aa9b6bb4d94cb8e3aac072285c3b6455467b433b",
+      "fullPage": true,
+      "dimensions": {
+        "width": 1425,
+        "height": 1048
+      },
+      "parts": [
+        {
+          "file": "profile-1440.svg",
+          "part": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1425,
+            "height": 524
+          },
+          "svgBytes": 46570,
+          "webpSha256": "3f97e5c18dc070ad351200411b46ca49a68f2719ee37bf5489e1bf01de0e626f",
+          "svgSha256": "1aee7ce59db79ac20389787120fc1608604070b82798b7e20b1b3961f4106acd"
+        },
+        {
+          "file": "profile-1440-continued.svg",
+          "part": 2,
+          "bounds": {
+            "x": 0,
+            "y": 524,
+            "width": 1425,
+            "height": 524
+          },
+          "svgBytes": 30036,
+          "webpSha256": "779275532d0f245bb37803ba8d63b35e6d8a3d187279cb6eec270d296d864b89",
+          "svgSha256": "a13250f0acd8800285f3cb52d762373a71be08d56b46c67d0fb0325e80655f3d"
+        }
+      ],
+      "representation": "Lossless WebP in SVG; consecutive segments cover the complete original screenshot with no omitted rows, resizing, or UI redrawing",
+      "pixelRoundtrip": "pass"
+    },
+    {
+      "file": "projects-1440.png",
+      "url": "https://verified-profile-demo.black-tooth-5474.workers.dev/demo/#projects",
+      "capturedAt": "2026-10-28T19:43:49.355Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "sha256": "0f544ef8ffffa92d168a16a9695e845fae02390b0c939fd0f14906bdd2252ec9",
+      "fullPage": true,
+      "dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "parts": [
+        {
+          "file": "projects-1440.svg",
+          "part": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 510
+          },
+          "svgBytes": 47835,
+          "webpSha256": "d8e0c2ad750df567acb3b76d20f2a740761d7ea9c2d5fcc4bc6bd2c8318b0fdb",
+          "svgSha256": "828904c5f364e0d7d3b1a2252943d21a012e9441de23e29266dfd3c970ae9053"
+        },
+        {
+          "file": "projects-1440-continued.svg",
+          "part": 2,
+          "bounds": {
+            "x": 0,
+            "y": 510,
+            "width": 1440,
+            "height": 490
+          },
+          "svgBytes": 21545,
+          "webpSha256": "d029732ef383a0af19f17cda06d75257b009654211056847a2a9d328f738daac",
+          "svgSha256": "74742112b0bec94cdf4bd09ae93f788f9c6a6cca49da08970cec2b6559e1deb3"
+        }
+      ],
+      "representation": "Lossless WebP in SVG; consecutive segments cover the complete original screenshot with no omitted rows, resizing, or UI redrawing",
+      "pixelRoundtrip": "pass"
+    },
+    {
+      "file": "credentials-1440.png",
+      "url": "https://verified-profile-demo.black-tooth-5474.workers.dev/demo/#badges",
+      "capturedAt": "2026-10-28T19:43:51.792Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "sha256": "60413c8c60aeb34e784e64c3acab7419d0b45af48265a5d39a6a5712b057449f",
+      "fullPage": true,
+      "dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "parts": [
+        {
+          "file": "credentials-1440.svg",
+          "part": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1000
+          },
+          "svgBytes": 60025,
+          "webpSha256": "902c64fb785495cf4dd12f356d570c94c10e7dfa1834e879c0ca95643590e846",
+          "svgSha256": "76daa57b91a046bc6be94bdbb3219c312233c7f7c1250e95e45259f788d24669"
+        }
+      ],
+      "representation": "Lossless WebP in SVG; consecutive segments cover the complete original screenshot with no omitted rows, resizing, or UI redrawing",
+      "pixelRoundtrip": "pass"
+    },
+    {
+      "file": "account-security-1440.png",
+      "url": "https://verified-profile-demo.black-tooth-5474.workers.dev/demo/#account",
+      "capturedAt": "2026-10-28T19:43:54.092Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "sha256": "9d76e62916af4d31aad0db87a788ed7d2370e518f2b54d8528e80a52dd946c8d",
+      "fullPage": true,
+      "dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "parts": [
+        {
+          "file": "account-security-1440.svg",
+          "part": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 524
+          },
+          "svgBytes": 46627,
+          "webpSha256": "446c563538a53da558e3fd8de13120ad708df935f221618fe0e30d709c2a7783",
+          "svgSha256": "0316a1ad1fdeead0cabfba629adb341b4a8434e8aa0d1548418be0a27f622f72"
+        },
+        {
+          "file": "account-security-1440-continued.svg",
+          "part": 2,
+          "bounds": {
+            "x": 0,
+            "y": 524,
+            "width": 1440,
+            "height": 476
+          },
+          "svgBytes": 28733,
+          "webpSha256": "3096fb23558ecf0813ff317d95972ba72d8e4b2b0c7bb6c9f137d5856403ddd3",
+          "svgSha256": "43283476846f965e1cee6dd89e5470ee034ce3da4e558e2db2c649bded4aab21"
+        }
+      ],
+      "representation": "Lossless WebP in SVG; consecutive segments cover the complete original screenshot with no omitted rows, resizing, or UI redrawing",
+      "pixelRoundtrip": "pass"
+    },
+    {
+      "file": "sign-in-preview-1440.png",
+      "url": "https://verified-profile-demo.black-tooth-5474.workers.dev/demo/#signin",
+      "capturedAt": "2026-10-28T19:43:56.561Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "sha256": "9ba5ea36e625b1ef35027354f49c68a5b82e3fafc340f029daf52c4fd89277db",
+      "fullPage": true,
+      "dimensions": {
+        "width": 1425,
+        "height": 1347
+      },
+      "parts": [
+        {
+          "file": "sign-in-preview-1440.svg",
+          "part": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1425,
+            "height": 673
+          },
+          "svgBytes": 54522,
+          "webpSha256": "121fd3b1b2c8020060b6d548ffaef69cdba2f927b8e2eb21d734df6448792d08",
+          "svgSha256": "d0f86677f7d2440678fcf2ced4d8eaa8b3060a95489643ecc06de9963817c9fc"
+        },
+        {
+          "file": "sign-in-preview-1440-continued.svg",
+          "part": 2,
+          "bounds": {
+            "x": 0,
+            "y": 673,
+            "width": 1425,
+            "height": 674
+          },
+          "svgBytes": 31820,
+          "webpSha256": "f035ff2eba512b55324fa9417ad729196fbc70ec8fa504e0773ea5d00eaf533c",
+          "svgSha256": "fa3d5aa2a05bcd036ff95f41777a71eff7fe5f85f245562231a69f1a9386c9b2"
+        }
+      ],
+      "representation": "Lossless WebP in SVG; consecutive segments cover the complete original screenshot with no omitted rows, resizing, or UI redrawing",
+      "pixelRoundtrip": "pass"
+    },
+    {
+      "file": "overview-390.png",
+      "url": "https://verified-profile-demo.black-tooth-5474.workers.dev/demo/#overview",
+      "capturedAt": "2026-10-28T19:43:59.236Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "0c96230ff01acbc0a913c86f082842215e534db88e9299996d8d87a4250471c8",
+      "fullPage": true,
+      "dimensions": {
+        "width": 375,
+        "height": 2220
+      },
+      "parts": [
+        {
+          "file": "overview-390.svg",
+          "part": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 1102
+          },
+          "svgBytes": 40554,
+          "webpSha256": "943680ddb1f1e580f83982e227ee1e9fd5dca815a5eccd6688780770ff5baa4f",
+          "svgSha256": "c6672c22851803400fe86977f40801e44648c79bdf0d663236dd29ba0b273d65"
+        },
+        {
+          "file": "overview-390-continued.svg",
+          "part": 2,
+          "bounds": {
+            "x": 0,
+            "y": 1102,
+            "width": 375,
+            "height": 1118
+          },
+          "svgBytes": 30944,
+          "webpSha256": "df36aec8d19f4f69effab54d8ed8f3888899142dbf1de81b6bff284f9a5888be",
+          "svgSha256": "b9c9bfd486b06cd74ffd9c57924a0e8d25947a57af629c2b4f727954af19a080"
+        }
+      ],
+      "representation": "Lossless WebP in SVG; consecutive segments cover the complete original screenshot with no omitted rows, resizing, or UI redrawing",
+      "pixelRoundtrip": "pass"
+    },
+    {
+      "file": "profile-390.png",
+      "url": "https://verified-profile-demo.black-tooth-5474.workers.dev/demo/#profile",
+      "capturedAt": "2026-10-28T19:44:01.732Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "96dc6be4a538ac85873af908a288e66b17490817f757cb72d86259ca944a4036",
+      "fullPage": true,
+      "dimensions": {
+        "width": 375,
+        "height": 1867
+      },
+      "parts": [
+        {
+          "file": "profile-390.svg",
+          "part": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 1867
+          },
+          "svgBytes": 59289,
+          "webpSha256": "4c85b7ac5d931507d0ccdfc1fa4322d10fc91d12345c8be7528704f2840c5c2a",
+          "svgSha256": "6008b3887f080cb58e816da1012be51054216be4a16322c90d4159d4496d1906"
+        }
+      ],
+      "representation": "Lossless WebP in SVG; consecutive segments cover the complete original screenshot with no omitted rows, resizing, or UI redrawing",
+      "pixelRoundtrip": "pass"
+    },
+    {
+      "file": "projects-390.png",
+      "url": "https://verified-profile-demo.black-tooth-5474.workers.dev/demo/#projects",
+      "capturedAt": "2026-10-28T19:44:04.186Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "8f862f08c2e857d86281d4deb8bd61300ab76af5d4259d662e2bbc620bb5a752",
+      "fullPage": true,
+      "dimensions": {
+        "width": 375,
+        "height": 1658
+      },
+      "parts": [
+        {
+          "file": "projects-390.svg",
+          "part": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 1658
+          },
+          "svgBytes": 52030,
+          "webpSha256": "19b6a1c372b97c3b73ee0f18ae70412548df7c101f28297957e78891ea4f1420",
+          "svgSha256": "c8bbe7eed85f1f807d3d9cff06537ecb18bf202e4809c9cd53b718e81838e2cd"
+        }
+      ],
+      "representation": "Lossless WebP in SVG; consecutive segments cover the complete original screenshot with no omitted rows, resizing, or UI redrawing",
+      "pixelRoundtrip": "pass"
+    },
+    {
+      "file": "credentials-390.png",
+      "url": "https://verified-profile-demo.black-tooth-5474.workers.dev/demo/#badges",
+      "capturedAt": "2026-10-28T19:44:06.627Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "ce0ced0f13125baf5b0c46861364f8883497cea0416b1201588c4a423a0528d3",
+      "fullPage": true,
+      "dimensions": {
+        "width": 375,
+        "height": 1181
+      },
+      "parts": [
+        {
+          "file": "credentials-390.svg",
+          "part": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 1181
+          },
+          "svgBytes": 44625,
+          "webpSha256": "c2e248b6c7645f3291054425850f66a03f67cdabe7f39d896d52a9904345e12e",
+          "svgSha256": "2bd3b01fc2d9ecb87c5d3eae6d38d25a0459c1da132256a8b573a16391b968c9"
+        }
+      ],
+      "representation": "Lossless WebP in SVG; consecutive segments cover the complete original screenshot with no omitted rows, resizing, or UI redrawing",
+      "pixelRoundtrip": "pass"
+    },
+    {
+      "file": "account-security-390.png",
+      "url": "https://verified-profile-demo.black-tooth-5474.workers.dev/demo/#account",
+      "capturedAt": "2026-10-28T19:44:09.161Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "6302b8c076d5e858d1195294a550a675af57e07b71c48ef91841493da089e5a2",
+      "fullPage": true,
+      "dimensions": {
+        "width": 375,
+        "height": 1744
+      },
+      "parts": [
+        {
+          "file": "account-security-390.svg",
+          "part": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 1744
+          },
+          "svgBytes": 57490,
+          "webpSha256": "38bb7ce665873e7db73fc936bb5c0c9bb44348d45a83a49e9fc48471c857ef7c",
+          "svgSha256": "c40d484165d51b96305c886d33abe3bbeb99d64544a04c05e5d526c11f0298b0"
+        }
+      ],
+      "representation": "Lossless WebP in SVG; consecutive segments cover the complete original screenshot with no omitted rows, resizing, or UI redrawing",
+      "pixelRoundtrip": "pass"
+    },
+    {
+      "file": "sign-in-preview-390.png",
+      "url": "https://verified-profile-demo.black-tooth-5474.workers.dev/demo/#signin",
+      "capturedAt": "2026-10-28T19:44:11.534Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "8d910831785908cf18936db9ce3be24e74732044f99a153263e3cb29cae0b57e",
+      "fullPage": true,
+      "dimensions": {
+        "width": 375,
+        "height": 2376
+      },
+      "parts": [
+        {
+          "file": "sign-in-preview-390.svg",
+          "part": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 1183
+          },
+          "svgBytes": 43185,
+          "webpSha256": "2572d8a8dd99d2d20d77127d4689e001a2bd5e918fb8760d14b69e8e9f7b45dc",
+          "svgSha256": "719e91de16b217481b1450189d6961eb457678e15513a456c4f8f9412687fc33"
+        },
+        {
+          "file": "sign-in-preview-390-continued.svg",
+          "part": 2,
+          "bounds": {
+            "x": 0,
+            "y": 1183,
+            "width": 375,
+            "height": 1193
+          },
+          "svgBytes": 27791,
+          "webpSha256": "506b292050c2db83635592842eaed0c480ad2af78a82a9080fb404ae60cf97c1",
+          "svgSha256": "d9539d5dd0905a5d4d07eee8dc171c28677508aa76fc46a3ed1b4b586f461351"
+        }
+      ],
+      "representation": "Lossless WebP in SVG; consecutive segments cover the complete original screenshot with no omitted rows, resizing, or UI redrawing",
+      "pixelRoundtrip": "pass"
+    },
+    {
+      "file": "mobile-menu-390.png",
+      "url": "https://verified-profile-demo.black-tooth-5474.workers.dev/demo/#overview",
+      "capturedAt": "2026-10-28T19:44:12.744Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sha256": "cedc05fa44fe1f10b6cec3b93f1f320be1927c485e97f133249892bf025833aa",
+      "fullPage": true,
+      "state": "Menu expanded",
+      "dimensions": {
+        "width": 375,
+        "height": 2561
+      },
+      "parts": [
+        {
+          "file": "mobile-menu-390.svg",
+          "part": 1,
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 1280
+          },
+          "svgBytes": 44921,
+          "webpSha256": "efa212daee3d5d9342713cbf711d164dc3cc3a709fe9cde28c3debadd9d33eb0",
+          "svgSha256": "321269b8bf17d7fa4b790f664beb120dd3750d452f3296f80bd794218e5e2094"
+        },
+        {
+          "file": "mobile-menu-390-continued.svg",
+          "part": 2,
+          "bounds": {
+            "x": 0,
+            "y": 1280,
+            "width": 375,
+            "height": 1281
+          },
+          "svgBytes": 34683,
+          "webpSha256": "9b8cb37fcbc153f1ecf64b2c0ab96e9ed61fa64180cd912e255f3baa9d8886ab",
+          "svgSha256": "fab6edfcc334828c4e92c1ec2363a0ed17c92f0a8a2c916f26ba5ef98e896256"
+        }
+      ],
+      "representation": "Lossless WebP in SVG; consecutive segments cover the complete original screenshot with no omitted rows, resizing, or UI redrawing",
+      "pixelRoundtrip": "pass"
+    }
+  ],
+  "pageErrors": []
+}

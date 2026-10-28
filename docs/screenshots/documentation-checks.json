@@ -1,0 +1,199 @@
+{
+  "checkedAt": "2026-10-28T20:00:07.581Z",
+  "scope": "Documentation only; no application behavior changed or new application regression run claimed",
+  "files": [
+    "README.md",
+    "manual.md",
+    "CHANGELOG.md",
+    "docs/README.md",
+    "docs/AUTHENTICATION.md",
+    "docs/GITHUB_FLOW.md",
+    "docs/screenshots/README.md",
+    "docs/changes/2026-10-29-reader-documentation.md"
+  ],
+  "relativeLinksAndAnchors": {
+    "checked": 148,
+    "failures": 0
+  },
+  "mermaid": {
+    "validator": "mermaid 11.12.0",
+    "parsed": 13,
+    "diagrams": [
+      {
+        "file": "README.md",
+        "index": 1,
+        "type": "flowchart-v2",
+        "result": "pass"
+      },
+      {
+        "file": "README.md",
+        "index": 2,
+        "type": "flowchart-v2",
+        "result": "pass"
+      },
+      {
+        "file": "README.md",
+        "index": 3,
+        "type": "flowchart-v2",
+        "result": "pass"
+      },
+      {
+        "file": "README.md",
+        "index": 4,
+        "type": "flowchart-v2",
+        "result": "pass"
+      },
+      {
+        "file": "manual.md",
+        "index": 1,
+        "type": "flowchart-v2",
+        "result": "pass"
+      },
+      {
+        "file": "manual.md",
+        "index": 2,
+        "type": "flowchart-v2",
+        "result": "pass"
+      },
+      {
+        "file": "manual.md",
+        "index": 3,
+        "type": "flowchart-v2",
+        "result": "pass"
+      },
+      {
+        "file": "docs/README.md",
+        "index": 1,
+        "type": "flowchart-v2",
+        "result": "pass"
+      },
+      {
+        "file": "docs/AUTHENTICATION.md",
+        "index": 1,
+        "type": "flowchart-v2",
+        "result": "pass"
+      },
+      {
+        "file": "docs/AUTHENTICATION.md",
+        "index": 2,
+        "type": "sequence",
+        "result": "pass"
+      },
+      {
+        "file": "docs/GITHUB_FLOW.md",
+        "index": 1,
+        "type": "flowchart-v2",
+        "result": "pass"
+      },
+      {
+        "file": "docs/ARCHITECTURE.md",
+        "index": 1,
+        "type": "flowchart-v2",
+        "result": "pass"
+      },
+      {
+        "file": "docs/ARCHITECTURE.md",
+        "index": 2,
+        "type": "er",
+        "result": "pass"
+      }
+    ]
+  },
+  "screenshots": {
+    "originalCaptures": 13,
+    "committedImageParts": 21,
+    "fullPixelRoundtrips": 13,
+    "visuallyInspectedOriginals": 13,
+    "source": "actual live Cloudflare read-only showcase"
+  },
+  "status": "PASS: links/anchors, Mermaid parsing/rendering, authentic screenshot pixel integrity, local desktop/mobile rendering, and hosted GitHub image/diagram rendering verified.",
+  "localRender": {
+    "renderedPages": [
+      {
+        "file": "README.md",
+        "width": 1440,
+        "images": 8,
+        "brokenImages": 0,
+        "pageOverflow": false
+      },
+      {
+        "file": "README.md",
+        "width": 390,
+        "images": 8,
+        "brokenImages": 0,
+        "pageOverflow": false
+      },
+      {
+        "file": "manual.md",
+        "width": 1440,
+        "images": 21,
+        "brokenImages": 0,
+        "pageOverflow": false
+      },
+      {
+        "file": "manual.md",
+        "width": 390,
+        "images": 21,
+        "brokenImages": 0,
+        "pageOverflow": false
+      },
+      {
+        "file": "docs/README.md",
+        "width": 1440,
+        "images": 0,
+        "brokenImages": 0,
+        "pageOverflow": false
+      },
+      {
+        "file": "docs/README.md",
+        "width": 390,
+        "images": 0,
+        "brokenImages": 0,
+        "pageOverflow": false
+      }
+    ],
+    "renderedDiagrams": 8,
+    "pageErrors": []
+  },
+  "visualReview": {
+    "originalLiveCaptures": 13,
+    "documentViewportPreviews": 6,
+    "newMermaidDiagrams": 8,
+    "result": "pass",
+    "fixes": [
+      "Changed roadmap and GitHub Flow to vertical layouts after horizontal versions rendered too small.",
+      "Kept consecutive screenshot parts in one paragraph for clearer continuity."
+    ]
+  },
+  "githubRender": {
+    "checkedAt": "2026-10-28T20:14:38.616Z",
+    "results": [
+      {
+        "file": "README.md",
+        "url": "https://github.com/DevJel/verified-profile/tree/docs/readme-manual-live-gallery",
+        "images": 8,
+        "brokenImages": 0,
+        "mermaidFrames": 4
+      },
+      {
+        "file": "manual.md",
+        "url": "https://github.com/DevJel/verified-profile/blob/docs/readme-manual-live-gallery/manual.md",
+        "images": 21,
+        "brokenImages": 0,
+        "mermaidFrames": 3
+      },
+      {
+        "file": "docs/README.md",
+        "url": "https://github.com/DevJel/verified-profile/blob/docs/readme-manual-live-gallery/docs/README.md",
+        "images": 0,
+        "brokenImages": 0,
+        "mermaidFrames": 1
+      }
+    ],
+    "visualReview": "README screenshot and overall layout inspected; manual desktop/mobile previews inspected after dismissing a transient GitHub search overlay. All images loaded and all eight new Mermaid frames rendered without syntax errors."
+  },
+  "committedSourceVerification": {
+    "files": 31,
+    "result": "All reviewed files matched the documentation branch before this final evidence-record update."
+  }
+}
