@@ -1,0 +1,120 @@
+{
+  "recordedAt": "2026-10-28T17:55:24.259455+00:00",
+  "note": "Representative viewport crops from actual screenshots; lossless WebP inside SVG preserves crop pixels exactly. Tests regenerate all full screenshots locally.",
+  "screenshots": [
+    {
+      "file": "overview-1440.svg",
+      "sourcePngSha256": "11bb5411aa854a4ac20223c7045b7a20ee86553595b8edb9e1f9e58212863ab1",
+      "sourceDimensions": [
+        1440,
+        1304
+      ],
+      "cropBounds": [
+        0,
+        0,
+        1440,
+        800
+      ],
+      "losslessWebpSha256": "7faa4c58f93a6f0eeed3895ddc4251300ebbf24bbfd5a805061fc1236eaa8c19",
+      "dimensions": [
+        1440,
+        800
+      ]
+    },
+    {
+      "file": "overview-390.svg",
+      "sourcePngSha256": "5d4e8eb32f95a2971ef8646086d1854b72016504b6de79b2ed7fe2aa8c15ce26",
+      "sourceDimensions": [
+        390,
+        2220
+      ],
+      "cropBounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "losslessWebpSha256": "66793ebcb1701bf2970ea90d42cb4afb5e11ab6bdf38020cb6aea7546401a534",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "file": "signin-1440.svg",
+      "sourcePngSha256": "f0ee0109231e559d34a89b31f0afa9a086eb89fbfb1cbb2088a909c8a23a6260",
+      "sourceDimensions": [
+        1440,
+        1327
+      ],
+      "cropBounds": [
+        0,
+        0,
+        1440,
+        700
+      ],
+      "losslessWebpSha256": "042571318262d135ce36f653d98dfb76ad95e6a91b88d947895c8929673063d7",
+      "dimensions": [
+        1440,
+        700
+      ]
+    },
+    {
+      "file": "signin-390.svg",
+      "sourcePngSha256": "6511a149fe1629650e90e4b1ac7864bdae10acdd40e8859cd7f2acaee6f4b0bd",
+      "sourceDimensions": [
+        390,
+        2376
+      ],
+      "cropBounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "losslessWebpSha256": "59d2e39be5008e9c92f507e57bcd6995ed9b4ecf727a51c7b6b2a4eab801bf54",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "file": "profile-390.svg",
+      "sourcePngSha256": "89968834af2598480248e577353c802439ba0deb2098a2a66068b577940199ab",
+      "sourceDimensions": [
+        390,
+        1842
+      ],
+      "cropBounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "losslessWebpSha256": "7975df91cf96a776b340aa794b8a138f9e683dbd3d9ac486a4fbb571f50aece3",
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "file": "menu-390.svg",
+      "sourcePngSha256": "1a5b64736383729bc97efd418550c0bb321c65f192505b577c352382aa6af1f7",
+      "sourceDimensions": [
+        390,
+        2540
+      ],
+      "cropBounds": [
+        0,
+        0,
+        390,
+        844
+      ],
+      "losslessWebpSha256": "8d9975dc786d21fd72239ea614173eb817ae9215e3a55a2c3caed0a439b1b8f0",
+      "dimensions": [
+        390,
+        844
+      ]
+    }
+  ]
+}

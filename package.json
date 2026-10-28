@@ -4,7 +4,9 @@
   "private": true,
   "description": "A static, accessible Verified Profile concept and interactive local demo.",
   "scripts": {
-    "test": "node tests/smoke.cjs"
+    "test": "node tests/smoke.cjs && node tests/demo.cjs",
+    "test:demo": "node tests/demo.cjs",
+    "build:demo": "node scripts/build-demo.cjs"
   },
   "devDependencies": {
     "playwright": "1.56.1"
