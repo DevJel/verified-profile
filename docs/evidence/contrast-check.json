@@ -1,0 +1,40 @@
+{
+  "method": "WCAG sRGB relative luminance calculation for primary text and input-boundary pairs",
+  "pairs": [
+    {
+      "foreground": "#182334",
+      "background": "#ffffff",
+      "ratio": 15.8,
+      "minimum": 4.5,
+      "result": "pass"
+    },
+    {
+      "foreground": "#59677a",
+      "background": "#ffffff",
+      "ratio": 5.76,
+      "minimum": 4.5,
+      "result": "pass"
+    },
+    {
+      "foreground": "#59677a",
+      "background": "#f6f8fb",
+      "ratio": 5.41,
+      "minimum": 4.5,
+      "result": "pass"
+    },
+    {
+      "foreground": "#1557a0",
+      "background": "#ffffff",
+      "ratio": 7.23,
+      "minimum": 4.5,
+      "result": "pass"
+    },
+    {
+      "foreground": "#8290a2",
+      "background": "#ffffff",
+      "ratio": 3.25,
+      "minimum": 3,
+      "result": "pass"
+    }
+  ]
+}
